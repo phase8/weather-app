@@ -236,7 +236,7 @@ function GetTime1() {
     let month = date.getMonth();
     let year = date.getFullYear();
     if (minute < 10) minute = "0" + minute;
-    let days = new Array("poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela", "poniedziałek", "wtorek", "środa", "czwartek", "piątek");
+    let days = new Array("niedziela", "poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela", "poniedziałek", "wtorek", "środa", "czwartek", "piątek");
     let months = new Array("stycznia", "lutego", "marca", "kwietnia", "maja", "czerwca", "lipca", "sierpnia", "września", "października", "listopada", "grudnia");
     let showdate = days[dayday] + ', ' + day + ' ' + months[month] + ' ' + year + " " + hour + ':' + minute
     let day1 = days[dayday + 1]
