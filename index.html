@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pogoda</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/mobile1_style.css">
+  <link rel="stylesheet" href="./css/mobile2_style.css">
+  <link rel="stylesheet" href="./css/deskop_style.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- above is code for the first view on mobile devices -->
+  <div class="mobile1">
+    <div class="mobile1_logocontainer">
+      <img src="./img/Grouppada_logo.png" alt="logo">
+      <h1 class="mobile1_pada">pada?</h1>
+    </div>
+    <div class="mobile1_inputcontainer">
+      <div class="mobile1_inputcontainer_citiselect">
+        <input class="mobile1_inputcontainer_citiselect_text" type="text" placeholder="Wybierz miasto">
+        <input class="mobile1_inputcontainer_citiselect_submit" type="image" src="./img/gogo.png" alt="Submit Form" />
+      </div>
+      <p class="mobile1_inputcontainer_albo">albo</p>
+      <div class="mobile1_inputcontainer_localise">
+        <p class="mobile1_inputcontainer_localise_text">pozwól się znaleźć!</p>
+        <input class="mobile1_inputcontainer_localise_submit" type="image" src="./img/Vector.png" alt="Submit Form" />
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--  
+    above is code for the second view on mobile devices -->
+  <div class="mobile2">
+    <div class="mobile2_logocontainer">
+      <img class="mobile2_logocontainer_logo" src="./img/mobile2padalogo.png" alt="logo">
+      <h1 class="mobile2_pada">pada?</h1>
+      <a href="" class="mobile2_zmienmiasto">zmień miasto</a>
+    </div>
+    <h1 class="mobile2_clock"></h1>
+    <div class="mobile2_citybox">
+      <div class="mobile2_noticecontainer">
+        <h1 class="mobile2_notice">geolokalizacja niedostępna</h1>
+      </div>
+      <div class="mobile2_citybox_iconcontainer"> <img class="mobile2_citybox_weathericon">
+      </div>
+      <h1 class="mobile2_citybox_city"></h1>
+      <p class="mobile2_citybox_description"></p>
+    </div>
+    <div class="mobile2_tempbox">
+      <h1 class="mobile2_tempbox_celsius"></h1>
+      <p class="mobile2_tempbox_tempmin"></p>
+      <p class="mobile2_tempbox_tempmax"></p>
+      <p class="mobile2_tempbox_cisnienie"></p>
+      <p class="mobile2_tempbox_wilgotnosc"></p>
+      <p class="mobile2_tempbox_wiatr"> </p>
+    </div>
+    <div class="mobile2_nextdaybox">
+      <div class="mobile2_nextdaybox_day1">
+        <h1 class="mobile2_nextdaybox_day1_day"></h1>
+        <div class="mobile2_nextdaybox_day1_weathericonbox">
+          <img class="mobile2_nextdaybox_day1_weathericon">
+        </div>
+        <p class="mobile2_nextdaybox_day1_tempbox_tempminmax"></p>
+      </div>
+      <div class="mobile2_nextdaybox_day2">
+        <h1 class="mobile2_nextdaybox_day2_day"></h1>
+        <div class="mobile2_nextdaybox_day2_weathericonbox">
+          <img class="mobile2_nextdaybox_day2_weathericon">
+        </div>
+        <p class="mobile2_nextdaybox_day2_tempbox_tempminmax"></p>
+      </div>
+      <div class="mobile2_nextdaybox_day3">
+        <h1 class="mobile2_nextdaybox_day3_day"></h1>
+        <div class="mobile2_nextdaybox_day3_weathericonbox">
+          <img class="mobile2_nextdaybox_day3_weathericon">
+        </div>
+        <p class="mobile2_nextdaybox_day3_tempbox_tempminmax"></p>
+      </div>
+      <div class="mobile2_nextdaybox_day4">
+        <h1 class="mobile2_nextdaybox_day4_day"></h1>
+        <div class="mobile2_nextdaybox_day4_weathericonbox">
+          <img class="mobile2_nextdaybox_day4_weathericon">
+        </div>
+        <p class="mobile2_nextdaybox_day4_tempbox_tempminmax"></p>
+      </div>
+      <div class="mobile2_nextdaybox_day5">
+        <h1 class="mobile2_nextdaybox_day5_day">czw 15 lipca</h1>
+        <div class="mobile2_nextdaybox_day5_weathericonbox">
+          <img class="mobile2_nextdaybox_day5_weathericon">
+        </div>
+        <p class="mobile2_nextdaybox_day5_tempbox_tempminmax"></p>
+      </div>
+    </div>
+  </div>
+  <!-- 
+    above is code for big sreens-->
+  <div class="deskop">
+    <aside class="deskop_leftbox">
+      <div class="deskop_leftbox_logocontainer">
+        <img src="./img/deskoplogoleft.png" alt="logo">
+        <h1 class="deskop_leftbox_pada">pada?</h1>
+      </div>
+      <div class="deskop_leftbox_inputcontainer">
+        <div class="deskop_leftbox_inputcontainer_citiselect">
+          <input class="deskop_leftbox_inputcontainer_citiselect_text" type="text" placeholder="Wybierz miasto">
+          <input class="deskop_leftbox_inputcontainer_citiselect_submit" type="image" src="./img/gogo.png"
+            alt="Submit Form" />
+        </div>
+        <p class="deskop_leftbox_inputcontainer_albo">albo</p>
+        <div class="deskop_leftbox_inputcontainer_localise">
+          <p class="deskop_leftbox_inputcontainer_localise_text">pozwól się znaleźć!</p>
+          <input class="deskop_leftbox_inputcontainer_localise_submit" type="image" src="./img/Vector.png"
+            alt="Submit Form" />
+        </div>
+      </div>
+      <div class="deskop_rightbox">
+        <h1 class="deskop_rightbox_clock"></h1>
+        <div class="deskop_rightbox_noticecontainer">
+          <h1 class="deskop_rightbox_notice">geolokalizacja niedostępna</h1>
+        </div>
+        <div class="deskop_rightbox_citybox">
+          <div class="deskop_rightbox_citybox_iconcontainer"> <img class="deskop_citybox_weathericon">
+          </div>
+          <h1 class="deskop_rightbox_citybox_city"></h1>
+          <p class="deskop_rightbox_citybox_description"></p>
+        </div>
+        <div class="deskop_rightbox_tempbox">
+          <h1 class="deskop_rightbox_tempbox_celsius"></h1>
+          <p class="deskop_rightbox_tempbox_tempmin"></p>
+          <p class="deskop_rightbox_tempbox_tempmax"></p>
+          <div class="deskop_rightbox_tempbox_line1"></div>
+          <p class="deskop_rightbox_tempbox_cisnienie"></p>
+          <div class="deskop_rightbox_tempbox_line2"></div>
+          <p class="deskop_rightbox_tempbox_wilgotnosc"></p>
+          <div class="deskop_rightbox_tempbox_line3"></div>
+          <p class="deskop_rightbox_tempbox_wiatr"></p>
+          <div class="deskop_rightbox_tempbox_line4"></div>
+        </div>
+        <div class="deskop_nextdaybox">
+          <div class="deskop_nextdaybox_day1">
+            <h1 class="deskop_nextdaybox_day1_day"></h1>
+            <div class="deskop_nextdaybox_day1_weathericonbox">
+              <img class="deskop_nextdaybox_day1_weathericon">
+            </div>
+            <p class="deskop_nextdaybox_day1_tempbox_tempminmax"></p>
+          </div>
+          <div class="deskop_nextdaybox_day2">
+            <h1 class="deskop_nextdaybox_day2_day"></h1>
+            <div class="deskop_nextdaybox_day2_weathericonbox">
+              <img class="deskop_nextdaybox_day2_weathericon">
+            </div>
+            <p class="deskop_nextdaybox_day2_tempbox_tempminmax"></p>
+          </div>
+          <div class="deskop_nextdaybox_day3">
+            <h1 class="deskop_nextdaybox_day3_day"></h1>
+            <div class="deskop_nextdaybox_day3_weathericonbox">
+              <img class="deskop_nextdaybox_day3_weathericon">
+            </div>
+            <p class="deskop_nextdaybox_day3_tempbox_tempminmax"></p>
+          </div>
+          <div class="deskop_nextdaybox_day4">
+            <h1 class="deskop_nextdaybox_day4_day"></h1>
+            <div class="deskop_nextdaybox_day4_weathericonbox">
+              <img class="deskop_nextdaybox_day4_weathericon">
+            </div>
+            <p class="deskop_nextdaybox_day4_tempbox_tempminmax"></p>
+          </div>
+          <div class="deskop_nextdaybox_day5">
+            <h1 class="deskop_nextdaybox_day5_day"></h1>
+            <div class="deskop_nextdaybox_day5_weathericonbox">
+              <img class="deskop_nextdaybox_day5_weathericon">
+            </div>
+            <p class="deskop_nextdaybox_day5_tempbox_tempminmax"></p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
