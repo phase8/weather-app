@@ -1,0 +1,682 @@
+.deskop {
+    margin: 0 auto;
+    background: linear-gradient(180deg, #002947 0%, rgba(56, 144, 207, 0.79) 100%);
+    display: none;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+.deskop_leftbox {
+    position: absolute;
+    width: 323px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.23);
+}
+
+.deskop_leftbox_logocontainer {
+    position: absolute;
+    left: 65px;
+    top: 249px;
+    height: 93px;
+    width: 132px;
+
+}
+
+.deskop_leftbox_pada {
+    position: absolute;
+    left: 43px;
+    top: 72px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #003C67;
+}
+
+.deskop_leftbox_inputcontainer {
+    position: absolute;
+    width: 290px;
+    height: 179px;
+    left: 16px;
+    top: 444px;
+
+
+    border-radius: 5px;
+}
+
+.deskop_leftbox_inputcontainer_citiselect {
+    position: absolute;
+    width: 224px;
+    height: 40px;
+    left: 34px;
+    top: 37px;
+
+    background: #D5EDFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+input[type="text"]:nth-of-type(1) {
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 60px;
+    top: 12px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    background: #D5EDFF;
+    border: 0;
+    /* identical to box height */
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.deskop_leftbox_inputcontainer_citiselect_submit {
+    all: unset;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 178px;
+    top: 9px;
+
+}
+
+.deskop_leftbox_inputcontainer_albo {
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    left: 134px;
+    top: 83px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.78);
+}
+
+.deskop_leftbox_inputcontainer_localise {
+    position: absolute;
+    width: 224px;
+    height: 40px;
+    left: 34px;
+    top: 102px;
+    background: #002947;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+.deskop_leftbox_inputcontainer_localise_text {
+    position: absolute;
+    width: 125px;
+    height: 17px;
+    left: 50px;
+    top: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.deskop_leftbox_inputcontainer_localise_submit {
+    position: absolute;
+    left: 181px;
+    top: 12px;
+}
+
+.deskop_rightbox {
+    position: absolute;
+    left: 323px;
+    top: 0px;
+    width: 1117px;
+    height: 900px;
+}
+
+.deskop_rightbox_clock {
+    position: absolute;
+    width: 370px;
+    height: 102px;
+    left: 723px;
+    top: 41px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.deskop_rightbox_noticecontainer {
+    position: absolute;
+    left: 183px;
+    top: 52px;
+    width: 427px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 5px;
+    opacity: 0.6;
+    display: none;
+}
+
+.deskop_rightbox_notice {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 10px;
+    color: #002947;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_rightbox_citybox {
+    position: absolute;
+    width: 352px;
+    height: 218px;
+    left: 221px;
+    top: 208px;
+
+}
+
+.deskop_rightbox_citybox_iconcontainer {
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    right: 0px;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_rightbox_citybox_weathericon {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+
+}
+
+.deskop_rightbox_citybox_city {
+    position: absolute;
+    left: 0px;
+    top: 104px;
+    height: 100px;
+    width: 279px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.deskop_rightbox_citybox_description {
+    position: absolute;
+    width: 268px;
+    height: 28px;
+    left: 6px;
+    bottom: 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.deskop_rightbox_tempbox {
+    position: absolute;
+    width: 291px;
+    height: 152px;
+    left: 221px;
+    top: 472px;
+}
+
+.deskop_rightbox_tempbox_celsius {
+    position: absolute;
+    left: 12px;
+    width: 145px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 67px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.deskop_rightbox_tempbox_tempmin {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    left: 155px;
+    top: 13px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.deskop_rightbox_tempbox_tempmax {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    left: 155px;
+    top: 31px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.deskop_rightbox_tempbox_cisnienie {
+    position: absolute;
+    width: 85.32px;
+    height: 67px;
+    left: 0px;
+    top: 85px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.deskop_rightbox_tempbox_wilgotnosc {
+    position: absolute;
+    width: 85.32px;
+    height: 67px;
+    left: 103px;
+    top: 85px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.deskop_rightbox_tempbox_wiatr {
+    position: absolute;
+    width: 85.32px;
+    height: 67px;
+    left: 206px;
+    top: 85px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.deskop_rightbox_tempbox_line1 {
+    position: absolute;
+    left: 0px;
+    top: 97px;
+    width: 0px;
+    height: 50px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.deskop_rightbox_tempbox_line2 {
+    position: absolute;
+    left: 88px;
+    top: 97px;
+    width: 0px;
+    height: 50px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.deskop_rightbox_tempbox_line3 {
+    position: absolute;
+    left: 203px;
+    top: 97px;
+    width: 0px;
+    height: 50px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.deskop_rightbox_tempbox_line4 {
+    position: absolute;
+    right: 0px;
+    top: 97px;
+    width: 0px;
+    height: 50px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.deskop_nextdaybox {
+    position: absolute;
+    width: 276px;
+    height: 710px;
+    left: 770px;
+    top: 152px;
+
+}
+
+.deskop_nextdaybox_day1 {
+    position: absolute;
+    width: 276px;
+    height: 142px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 237, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.deskop_nextdaybox_day1_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 13px;
+    top: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day1_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 11px;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_nextdaybox_day1_weathericon {
+    width: 30px;
+    height: 30px;
+}
+
+.deskop_nextdaybox_day1_tempbox_tempminmax {
+    position: absolute;
+    width: 142px;
+    height: 87px;
+    left: 115px;
+    top: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day2 {
+    position: absolute;
+    width: 276px;
+    height: 142px;
+    left: 0px;
+    top: 142px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 237, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.deskop_nextdaybox_day2_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 13px;
+    top: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day2_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 11px;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_nextdaybox_day2_weathericon {
+    width: 30px;
+    height: 30px;
+}
+
+.deskop_nextdaybox_day2_tempbox_tempminmax {
+    position: absolute;
+    width: 142px;
+    height: 87px;
+    left: 115px;
+    top: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day3 {
+    position: absolute;
+    width: 276px;
+    height: 142px;
+    left: 0px;
+    top: 284px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 237, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.deskop_nextdaybox_day3_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 13px;
+    top: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day3_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 11px;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_nextdaybox_day3_weathericon {
+    width: 30px;
+    height: 30px;
+}
+
+.deskop_nextdaybox_day3_tempbox_tempminmax {
+    position: absolute;
+    width: 142px;
+    height: 87px;
+    left: 115px;
+    top: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day4 {
+    position: absolute;
+    width: 276px;
+    height: 142px;
+    left: 0px;
+    top: 426px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 237, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.deskop_nextdaybox_day4_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 13px;
+    top: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day4_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 11px;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_nextdaybox_day4_weathericon {
+    width: 30px;
+    height: 30px;
+}
+
+.deskop_nextdaybox_day4_tempbox_tempminmax {
+    position: absolute;
+    width: 142px;
+    height: 87px;
+    left: 115px;
+    top: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day5 {
+    position: absolute;
+    width: 276px;
+    height: 142px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 237, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.deskop_nextdaybox_day5_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 13px;
+    top: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.deskop_nextdaybox_day5_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 11px;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskop_nextdaybox_day5_weathericon {
+    width: 30px;
+    height: 30px;
+}
+
+.deskop_nextdaybox_day5_tempbox_tempminmax {
+    position: absolute;
+    width: 142px;
+    height: 87px;
+    left: 115px;
+    top: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

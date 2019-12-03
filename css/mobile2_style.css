@@ -1,0 +1,555 @@
+.mobile2 {
+    position: relative;
+    width: 375px;
+    height: 667px;
+    background: linear-gradient(180deg, #002947 0%, rgba(56, 144, 207, 0.79) 93.75%);
+    display: none;
+    margin: 0 auto;
+}
+
+.mobile2_logocontainer {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    height: 70px;
+    width: 63px;
+}
+
+.mobile2_logocontainer_logo {
+    height: 45px;
+    width: 63px;
+}
+
+.mobile2_pada {
+    position: absolute;
+    left: 13px;
+    top: 24px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #003C67;
+}
+
+.mobile2_zmienmiasto {
+    position: absolute;
+    left: 0px;
+    top: 47px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    text-decoration: underline;
+    color: #FFFFFF;
+    text-align: center;
+    width: 63px;
+    height: 17px;
+}
+
+
+
+.mobile2_clock {
+    position: absolute;
+    width: 174px;
+    height: 47px;
+    left: 187px;
+    top: 18px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.mobile2_noticecontainer {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    width: 245px;
+    height: 15px;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 5px;
+    opacity: 0.6;
+    display: none;
+}
+
+.mobile2_notice {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 10px;
+    color: #002947;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile2_citybox {
+    position: absolute;
+    width: 308px;
+    height: 188px;
+    left: 54px;
+    top: 83px;
+}
+
+.mobile2_citybox_iconcontainer {
+    position: absolute;
+    width: 174px;
+    height: 174px;
+    left: 134px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile2_citybox_weathericon {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+}
+
+.mobile2_citybox_city {
+    position: absolute;
+    left: 68px;
+    top: 104px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mobile2_citybox_description {
+    position: absolute;
+    width: 268px;
+    height: 28px;
+    left: 0px;
+    bottom: 0px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.mobile2_tempbox {
+    position: absolute;
+    width: 296px;
+    height: 145px;
+    left: 49px;
+    top: 296px;
+}
+
+.mobile2_tempbox_celsius {
+    position: absolute;
+    left: 12px;
+    width: 145px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mobile2_tempbox_tempmin {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    left: 155px;
+    top: 13px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.mobile2_tempbox_tempmax {
+    position: absolute;
+    width: 141px;
+    height: 18px;
+    left: 155px;
+    top: 31px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.mobile2_tempbox_cisnienie {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 12px;
+    top: 76px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.mobile2_tempbox_wilgotnosc {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 12px;
+    top: 99px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.mobile2_tempbox_wiatr {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 12px;
+    top: 122px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.mobile2_nextdaybox {
+    position: absolute;
+    width: 375px;
+    height: 195px;
+    left: -1px;
+    top: 472px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.mobile2_nextdaybox_day1 {
+    position: absolute;
+    width: 75px;
+    height: 195px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.mobile2_nextdaybox_day1_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 4px;
+    top: 9px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day1_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 6px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile2_nextdaybox_day1_weathericon {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+}
+
+.mobile2_nextdaybox_day1_tempbox_tempminmax {
+    position: absolute;
+    width: 55px;
+    height: 86px;
+    left: 9px;
+    top: 88px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day2 {
+    position: absolute;
+    left: 75px;
+    top: 0;
+    width: 75px;
+    height: 195px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.mobile2_nextdaybox_day2_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 4px;
+    top: 9px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day2_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 6px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile2_nextdaybox_day2_weathericon {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+}
+
+.mobile2_nextdaybox_day2_tempbox_tempminmax {
+    position: absolute;
+    width: 55px;
+    height: 86px;
+    left: 9px;
+    top: 88px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.mobile2_nextdaybox_day3 {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    width: 75px;
+    height: 195px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.mobile2_nextdaybox_day3_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 4px;
+    top: 9px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day3_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 6px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile2_nextdaybox_day3_weathericon {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+}
+
+.mobile2_nextdaybox_day3_tempbox_tempminmax {
+    position: absolute;
+    width: 55px;
+    height: 86px;
+    left: 9px;
+    top: 88px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.mobile2_nextdaybox_day4 {
+    position: absolute;
+    left: 225px;
+    top: 0;
+    width: 75px;
+    height: 195px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.mobile2_nextdaybox_day4_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 4px;
+    top: 9px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day4_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 6px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mobile2_nextdaybox_day4_weathericon {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+
+}
+
+.mobile2_nextdaybox_day4_tempbox_tempminmax {
+    position: absolute;
+    width: 55px;
+    height: 86px;
+    left: 9px;
+    top: 88px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day5 {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    width: 75px;
+    height: 195px;
+    border: 1px solid rgba(212, 237, 255, 0.2);
+}
+
+.mobile2_nextdaybox_day5_day {
+    position: absolute;
+    width: 65px;
+    height: 176px;
+    left: 4px;
+    top: 9px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mobile2_nextdaybox_day5_weathericonbox {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    left: 6px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mobile2_nextdaybox_day5_weathericon {
+    position: absolute;
+    width: 40px;
+    height: 29px;
+
+}
+
+.mobile2_nextdaybox_day5_tempbox_tempminmax {
+    position: absolute;
+    width: 55px;
+    height: 86px;
+    left: 9px;
+    top: 88px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}

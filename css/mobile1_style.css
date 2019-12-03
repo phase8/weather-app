@@ -1,0 +1,122 @@
+.mobile1 {
+  margin: 0 auto;
+  position: relative;
+  width: 375px;
+  height: 667px;
+  background: linear-gradient(180deg, #002947 0%, rgba(56, 144, 207, 0.79) 93.75%);
+  display: none;
+}
+
+.mobile1_logocontainer {
+  position: absolute;
+  left: 123px;
+  top: 99px;
+  height: 93px;
+  width: 132px;
+
+}
+
+.mobile1_pada {
+  position: absolute;
+  left: 30px;
+  top: 49px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #003C67;
+}
+
+.mobile1_inputcontainer {
+  position: absolute;
+  width: 290px;
+  height: 179px;
+  left: 43px;
+  top: 334px;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 5px;
+}
+
+.mobile1_inputcontainer_citiselect {
+  position: absolute;
+  width: 224px;
+  height: 40px;
+  left: 34px;
+  top: 37px;
+
+  background: #D5EDFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+input[type="text"]:nth-of-type(1) {
+  position: absolute;
+  width: 104px;
+  height: 16px;
+  left: 60px;
+  top: 12px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  background: #D5EDFF;
+  border: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.mobile1_inputcontainer_citiselect_submit {
+  all: unset;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 178px;
+  top: 9px;
+}
+
+.mobile1_inputcontainer_albo {
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  left: 134px;
+  top: 83px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+.mobile1_inputcontainer_localise {
+  position: absolute;
+  width: 224px;
+  height: 40px;
+  left: 34px;
+  top: 102px;
+  background: #002947;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.mobile1_inputcontainer_localise_text {
+  position: absolute;
+  width: 125px;
+  height: 17px;
+  left: 50px;
+  top: 11px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.mobile1_inputcontainer_localise_submit {
+  position: absolute;
+  left: 181px;
+  top: 12px;
+}
