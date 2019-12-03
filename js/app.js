@@ -1,7 +1,7 @@
 let scriptSrc = 'app.js';
-if (window.outerWidth <= 700)
+if (window.outerWidth <= 768)
   scriptSrc = './js/mobile.js';
-else if (window.outerWidth > 700)
+else if (window.outerWidth > 768)
   scriptSrc = './js/deskop.js';
 let script = document.createElement('script');
 script.src = scriptSrc;
